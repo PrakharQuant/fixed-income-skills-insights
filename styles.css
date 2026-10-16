@@ -119,6 +119,39 @@ h2 {
     margin-bottom: 0.4rem;
 }
 
+.apply-card {
+    background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+    border-left: 5px solid #2e7d32;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.apply-btn {
+    display: block;
+    text-align: center;
+    padding: 0.75rem 1rem;
+    margin: 0.4rem 0;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    transition: transform 0.15s, opacity 0.15s;
+}
+
+.apply-btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.92;
+}
+
+.apply-btn.usa {
+    background: #1565c0;
+}
+
+.apply-btn.europe {
+    background: #2e7d32;
+}
+
 .insight-box {
     background: #e8f4fd;
     border-left: 5px solid #0288d1;
